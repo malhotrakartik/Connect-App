@@ -1,0 +1,70 @@
+/* style of logo from google font */
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');    
+div,h6{
+  font-size: 1.5rem;
+}
+a{
+  color: black !important;
+}
+
+.brand-logo,h2{
+  font-family: 'Grand Hotel', cursive;
+}
+
+
+.auth-card{
+  padding: 40px;
+  text-align: center;
+  /* height: 50vh; */
+  max-height:500px;
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+ /* label underline focus color */
+ .input-field input[type=text]:focus {
+  border-bottom: 1px solid rgb(16, 30, 226) !important;
+  box-shadow: 0 1px 0 0 rgb(14, 32, 26) !important;
+}
+ .input-field input[type=password]:focus {
+  border-bottom: 1px solid rgb(16, 30, 226) !important;
+  box-shadow: 0 1px 0 0 rgb(14, 32, 26) !important;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  /* max-width: 80vw; */
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+.item{
+   width: 30%;
+   height: 30%;
+   margin-top: 20px;
+}
+
+
+.home-card{
+  max-width: 500px;
+  height: max-content;
+  margin: 20px auto;
+}
+ 
+/* predefined in materialize css */
+#toast-container{
+ top : 30px !important;
+ right : 20px !important;
+ left : auto !important
+}
+
+.material-icons:hover{
+  cursor: pointer;
+}
+
+.home-card h5{
+  display: flex;
+  align-items: center;
+  padding-top:  10px;
+}
